@@ -23,7 +23,12 @@ console.log(userName)
 
 const numberOne = window.prompt('Enter a number')
 const numberTwo = window.prompt('Enter another number')
-console.log(numberOne)
+const numOne = Number(numberOne)
+const numTwo = Number(numberTwo)
+console.log(numOne)
 console.log(numberTwo)
 
 // ------------------------------Doing Math------------------------------
+
+const sum = numOne + numTwo
+console.log(sum)
