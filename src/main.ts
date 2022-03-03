@@ -21,4 +21,9 @@ console.log(userName)
 
 // ------------------------------Converting String Input Into Numbers------------------------------
 
+const numberOne = window.prompt('Enter a number')
+const numberTwo = window.prompt('Enter another number')
+console.log(numberOne)
+console.log(numberTwo)
+
 // ------------------------------Doing Math------------------------------
