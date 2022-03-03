@@ -16,6 +16,9 @@ console.table(myObject)
 
 // ------------------------------Getting Input From User------------------------------
 
+const userName = window.prompt('What is your name?')
+console.log(userName)
+
 // ------------------------------Converting String Input Into Numbers------------------------------
 
 // ------------------------------Doing Math------------------------------
