@@ -1,3 +1,4 @@
+import { type } from 'os'
 import './style.css'
 
 // ------------------------------Creating Variables------------------------------
@@ -80,3 +81,12 @@ console.log(`Total Sum: ${arraySum}`)
 
 const average = arraySum / 5
 console.log(`Average: ${average}`)
+
+// ------------------------------Arrays/Object------------------------------
+
+let stats = {
+  smallest: smallest,
+  largest: largest,
+  sum: sum,
+  average: average,
+}
