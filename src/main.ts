@@ -5,7 +5,8 @@ import './style.css'
 const numberOfCupsOfCoffee = 3
 const fullName = 'Chad Lada'
 
-console.log(`${fullName} ${numberOfCupsOfCoffee}`)
+console.log(`Name: ${fullName}`)
+console.log(`Cups of coffee/day: ${numberOfCupsOfCoffee}`)
 
 const myObject = {
   fullName: fullName,
@@ -60,3 +61,22 @@ console.log(message2)
 console.log(message3)
 console.log(message4)
 console.log(message5)
+
+// ------------------------------Arrays------------------------------
+
+const numbers = [3326, 29750, 15549, 15961, 47139]
+
+const smallest = Math.min(...numbers)
+console.log(`Smallest: ${smallest}`)
+
+const largest = Math.max(...numbers)
+console.log(`Largest: ${largest}`)
+
+const arraySum = numbers.reduce((a, b) => {
+  console.log('current value', a + b)
+  return a + b
+}, 0)
+console.log(`Total Sum: ${arraySum}`)
+
+const average = arraySum / 5
+console.log(`Average: ${average}`)
